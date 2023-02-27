@@ -16,7 +16,7 @@ class calculator {
     }
 
     public static void sub(int a, int b) {
-        System.out.println(a + " multiplied by " + b + " is " + (a - b));
+        System.out.println(a + " subtracted by " + b + " is " + (a - b));
     }
 
 }
