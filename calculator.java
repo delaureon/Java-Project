@@ -8,12 +8,15 @@ class calculator {
     }
 
     public static void div(int a, int b) {
-        System.out.println(a + " divided by " + b + " is " + (a /b));
-        System.out.println("Committing to new branch");
+        System.out.println(a + " divided by " + b + " is " + (a/b));
     }
 
     public static void multi(int a, int b) {
         System.out.println(a + " multiplied by " + b + " is " + (a * b));
-        System.out.println("Committing to new branch");
     }
+
+    public static void sub(int a, int b) {
+        System.out.println(a + " multiplied by " + b + " is " + (a - b));
+    }
+
 }
