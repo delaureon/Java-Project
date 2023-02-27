@@ -6,4 +6,8 @@ class calculator {
         multi(6,6);
         div(3,3);
     }
+
+    public static void div(int a, int b) {
+        System.out.println(a + " divided by " + b + " is " + (a /b));
+    }
 }
